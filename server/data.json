@@ -44,6 +44,13 @@
       "description": "сосало",
       "bonus": "+2 к сосалу",
       "image": null
+    },
+    {
+      "id": 2,
+      "name": "viltrumite",
+      "description": "AWESOME RACE MAN",
+      "bonus": "+5 к силе, +5 к ловкости, +5 к телосложению",
+      "image": null
     }
   ],
   "classes": [
@@ -135,13 +142,14 @@
       "type": "Weapon",
       "description": "Классика",
       "price": 100,
-      "stats": "1к6 балилстического\n1кг\n"
+      "stats": "1к6 балилстического\n1кг\n",
+      "subType": "Пистолеты"
     },
     {
       "id": 2,
       "name": "Пенис",
       "type": "Weapon",
-      "subType": "Тяжелое",
+      "subType": "Винтовки",
       "description": "Оружие из Пустоши",
       "stats": "1к8 урон 1кг вес",
       "price": 69,
