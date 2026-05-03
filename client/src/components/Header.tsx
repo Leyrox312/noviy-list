@@ -1,7 +1,18 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
+import React, { useState } from 'react';
+import { Link, useNavigate } from 'react-router-dom';
 
 const Header: React.FC = () => {
+  const [searchQuery, setSearchQuery] = useState('');
+  const navigate = useNavigate();
+
+  const handleSearch = (e: React.FormEvent) => {
+    e.preventDefault();
+    if (searchQuery.trim()) {
+      navigate(`/search?q=${encodeURIComponent(searchQuery)}`);
+      setSearchQuery('');
+    }
+  };
+
   return (
     <nav className="navbar">
       <Link to="/" style={{ textDecoration: 'none', color: 'inherit' }}>
@@ -10,7 +21,25 @@ const Header: React.FC = () => {
         </div>
       </Link>
       
-      <div className="nav-links">
+      <div className="nav-links" style={{ display: 'flex', alignItems: 'center' }}>
+        <form onSubmit={handleSearch} style={{ marginRight: '15px' }}>
+          <input 
+            type="text" 
+            placeholder="ПОИСК В БАЗЕ..." 
+            value={searchQuery}
+            onChange={(e) => setSearchQuery(e.target.value)}
+            style={{ 
+              background: 'black', 
+              color: '#18ff62', 
+              border: '1px solid #18ff62', 
+              padding: '5px 10px',
+              fontFamily: 'inherit',
+              width: '150px',
+              outline: 'none'
+            }}
+          />
+        </form>
+
         <div className="dropdown">
           <button className="btn">Правила</button>
           <div className="dropdown-content">
@@ -18,6 +47,8 @@ const Header: React.FC = () => {
             <Link to="/mechanics">Механики</Link>
           </div>
         </div>
+
+        <Link to="/articles" className="btn">Архивы</Link>
 
         <div className="dropdown">
           <button className="btn">Персонаж</button>

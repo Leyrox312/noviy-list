@@ -20,6 +20,7 @@ interface Database {
   classes: any[];
   perks: any[];
   items: any[];
+  origins: any[];
 }
 
 const initialData: Database = {
@@ -47,10 +48,13 @@ const initialData: Database = {
     }
   ],
   perks: [
-    { id: 1, name: 'Кровавая баня', description: 'Больше урона', requirement: 'Уровень 5' }
+    { id: 1, name: 'Кровавая баня', description: 'Больше урона', requirement: 'Уровень 5', image: null }
   ],
   items: [
-    { id: 1, name: '10мм Пистолет', type: ItemType.WEAPON, description: 'Классика', price: 100, stats: '{}' }
+    { id: 1, name: '10мм Пистолет', type: ItemType.WEAPON, subType: 'Пистолеты', description: 'Классика', price: 100, stats: '1к8 урон' }
+  ],
+  origins: [
+    { id: 1, name: 'Выходец из Убежища', description: 'Вы выросли в безопасности...', bonus: 'Доп. Очки навыков' }
   ]
 };
 

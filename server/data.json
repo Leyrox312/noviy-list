@@ -1,0 +1,161 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "admin",
+      "password": "admin",
+      "role": "admin"
+    }
+  ],
+  "articles": [
+    {
+      "id": 1,
+      "title": "История Пустоши",
+      "content": "После падения бомб...",
+      "categoryId": 1
+    },
+    {
+      "id": 2,
+      "title": "Я СОСОАААААААААААААААААЛ",
+      "content": "Я СОСАААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААЛ",
+      "categoryId": 1,
+      "createdAt": "2026-05-03T19:28:06.282Z",
+      "updatedAt": "2026-05-03T19:28:06.282Z"
+    },
+    {
+      "id": 3,
+      "title": "Заметки",
+      "content": "Помыть писю",
+      "categoryId": 1,
+      "createdAt": "2026-05-03T19:31:38.402Z",
+      "updatedAt": "2026-05-03T19:31:38.402Z"
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Лор"
+    }
+  ],
+  "races": [
+    {
+      "id": 1,
+      "name": "сосал",
+      "description": "сосало",
+      "bonus": "+2 к сосалу",
+      "image": null
+    }
+  ],
+  "classes": [
+    {
+      "id": 1,
+      "name": "Солдат Братства",
+      "description": "Тяжелая броня и оружие. Основная сила Братства Стали в Пустоши.",
+      "image": "https://images.v-s.mobi/vi/Qta9chteIug/maxresdefault.jpg",
+      "fullImage": "https://images.v-s.mobi/vi/Qta9chteIug/maxresdefault.jpg",
+      "levels": [
+        {
+          "level": 1,
+          "perk": "Ношение силовой брони",
+          "bonus": "+1 СИЛ"
+        },
+        {
+          "level": 2,
+          "perk": "Владение тяжелым оружием",
+          "bonus": "+2 Урон"
+        },
+        {
+          "level": 3,
+          "perk": "Тактическая подготовка",
+          "bonus": "Доп. атака"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Пенис",
+      "description": "Пенис мьюзик круто гуфи ахх",
+      "image": "https://avatars.steamstatic.com/01d9e92954e4d4eea2133c03c99dc5eceed7aa9c_full.jpg",
+      "fullImage": "https://i.ytimg.com/vi/55hvgva2YQg/hqdefault.jpg",
+      "levels": [
+        {
+          "level": 1,
+          "perk": "Начальный перк",
+          "bonus": "+1 к стате"
+        },
+        {
+          "level": 2,
+          "perk": "2",
+          "bonus": "1"
+        },
+        {
+          "level": 3,
+          "perk": "3",
+          "bonus": "11"
+        },
+        {
+          "level": 4,
+          "perk": "4",
+          "bonus": "111"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "AWESOME EMPEROR THRAGG",
+      "description": "imma act a damn fool",
+      "image": "https://raw.githubusercontent.com/Leyrox312/noviy-list/refs/heads/master/изображение_2026-05-03_230807030.png",
+      "fullImage": "https://raw.githubusercontent.com/Leyrox312/noviy-list/refs/heads/master/изображение_2026-05-03_230807030.png",
+      "levels": [
+        {
+          "level": 1,
+          "perk": "AWESOME THRAGG",
+          "bonus": "+10 к силе, +10 к ахуенности, +10 к bass boost"
+        },
+        {
+          "level": 2,
+          "perk": "",
+          "bonus": ""
+        }
+      ]
+    }
+  ],
+  "perks": [
+    {
+      "id": 1,
+      "name": "Кровавая баня",
+      "description": "Больше урона",
+      "requirement": "Уровень 5"
+    }
+  ],
+  "items": [
+    {
+      "id": 1,
+      "name": "10мм Пистолет",
+      "type": "Weapon",
+      "description": "Классика",
+      "price": 100,
+      "stats": "1к6 балилстического\n1кг\n"
+    },
+    {
+      "id": 2,
+      "name": "Пенис",
+      "type": "Weapon",
+      "subType": "Тяжелое",
+      "description": "Оружие из Пустоши",
+      "stats": "1к8 урон 1кг вес",
+      "price": 69,
+      "image": null
+    },
+    {
+      "id": 3,
+      "name": "пп",
+      "type": "Weapon",
+      "subType": "Пистолеты",
+      "description": "Оружие из Пустоши",
+      "stats": "1к8 пустошь",
+      "price": 11,
+      "image": null
+    }
+  ]
+}
