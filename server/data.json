@@ -17,18 +17,18 @@
     {
       "id": 2,
       "title": "Я СОСОАААААААААААААААААЛ",
-      "content": "Я СОСАААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААЛ",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque cursus lectus ut interdum scelerisque. Mauris volutpat tincidunt arcu, quis ultricies orci vestibulum eget. In mollis aliquam vulputate. Praesent risus purus, pretium ut ligula sit amet, tincidunt laoreet tellus. Duis id dapibus nisi, ac porta lacus. Etiam tincidunt aliquam porttitor. Quisque et est id lectus bibendum porttitor sit amet sed erat.",
       "categoryId": 1,
       "createdAt": "2026-05-03T19:28:06.282Z",
-      "updatedAt": "2026-05-03T19:28:06.282Z"
+      "updatedAt": "2026-05-04T13:06:24.160Z"
     },
     {
       "id": 3,
       "title": "Заметки",
-      "content": "Помыть писю",
+      "content": "пусто",
       "categoryId": 1,
       "createdAt": "2026-05-03T19:31:38.402Z",
-      "updatedAt": "2026-05-03T19:31:38.402Z"
+      "updatedAt": "2026-05-04T13:06:14.399Z"
     }
   ],
   "categories": [

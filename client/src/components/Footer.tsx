@@ -13,7 +13,7 @@ const Footer: React.FC = () => {
           <a href="https://www.youtube.com/shorts/Qta9chteIug" target="_blank" rel="noopener noreferrer" className="btn" style={{ fontSize: '0.8em' }}>Техподдержка</a>
         </div>
         <div>
-          <p>Контактная информация: vault-tec@wasteland.com</p>
+          <p>Контактная информация: @highqualitynahooy</p>
           <p>Дата создания: 2026</p>
         </div>
       </div>
