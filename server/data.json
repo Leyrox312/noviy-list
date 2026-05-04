@@ -41,16 +41,18 @@
     {
       "id": 1,
       "name": "сосал",
-      "description": "сосало",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque cursus lectus ut interdum scelerisque. Mauris volutpat tincidunt arcu, quis ultricies orci vestibulum eget. In mollis aliquam vulputate. Praesent risus purus, pretium ut ligula sit amet, tincidunt laoreet tellus. Duis id dapibus nisi, ac porta lacus. Etiam tincidunt aliquam porttitor. Quisque et est id lectus bibendum porttitor sit amet sed erat.\n\nNunc ultricies odio nec aliquet consequat. Praesent et sapien blandit, iaculis est in, faucibus dui. Praesent volutpat scelerisque elit. Mauris scelerisque vulputate tellus eu venenatis. Sed feugiat odio eu urna convallis, sit amet laoreet neque rutrum. Duis convallis ac arcu eu sollicitudin. Nunc ultricies risus et sem hendrerit iaculis. Duis vel pretium tellus. Sed condimentum nibh a nisl luctus ullamcorper. Nulla rutrum dignissim nulla eu elementum. Quisque enim tellus, pretium at ex et, semper imperdiet elit. Maecenas urna nisl, ullamcorper quis quam sit amet, auctor aliquet justo. Aenean laoreet nulla vel elit tincidunt mollis. Vivamus ut lobortis ipsum. Nullam dignissim, odio non aliquet bibendum, dolor sem convallis libero, ac feugiat eros enim vel lorem. Nulla vel blandit leo.",
       "bonus": "+2 к сосалу",
-      "image": null
+      "image": "https://images.v-s.mobi/vi/Qta9chteIug/maxresdefault.jpg",
+      "fullImage": "https://images.v-s.mobi/vi/Qta9chteIug/maxresdefault.jpg"
     },
     {
       "id": 2,
       "name": "viltrumite",
       "description": "AWESOME RACE MAN",
       "bonus": "+5 к силе, +5 к ловкости, +5 к телосложению",
-      "image": null
+      "image": "https://playerok.fra1.digitaloceanspaces.com/images/1f0c79c8-822c-6110-5af1-4cd606cedf4c.jpeg?timestamp=1763873595",
+      "fullImage": "https://i.pinimg.com/736x/3f/f6/18/3ff618e67e2eaabf39d65d49b88d1696.jpg"
     }
   ],
   "classes": [
@@ -125,6 +127,20 @@
           "bonus": ""
         }
       ]
+    },
+    {
+      "id": 4,
+      "name": "Тест",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque cursus lectus ut interdum scelerisque. Mauris volutpat tincidunt arcu, quis ultricies orci vestibulum eget. In mollis aliquam vulputate. Praesent risus purus, pretium ut ligula sit amet, tincidunt laoreet tellus. Duis id dapibus nisi, ac porta lacus. Etiam tincidunt aliquam porttitor. Quisque et est id lectus bibendum porttitor sit amet sed erat.\nСОООООООООООСААААААААААААААААЛ\nNunc ultricies odio nec aliquet consequat. Praesent et sapien blandit, iaculis est in, faucibus dui. Praesent volutpat scelerisque elit. Mauris scelerisque vulputate tellus eu venenatis. Sed feugiat odio eu urna convallis, sit amet laoreet neque rutrum. Duis convallis ac arcu eu sollicitudin. Nunc ultricies risus et sem hendrerit iaculis. Duis vel pretium tellus. Sed condimentum nibh a nisl luctus ullamcorper. Nulla rutrum dignissim nulla eu elementum. Quisque enim tellus, pretium at ex et, semper imperdiet elit. Maecenas urna nisl, ullamcorper quis quam sit amet, auctor aliquet justo. Aenean laoreet nulla vel elit tincidunt mollis. Vivamus ut lobortis ipsum. Nullam dignissim, odio non aliquet bibendum, dolor sem convallis libero, ac feugiat eros enim vel lorem. Nulla vel blandit leo.\nMaecenas justo justo, cursus non nulla vitae, malesuada congue orci. Nam nisi ante, tincidunt ut ante non, egestas gravida erat. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum ut interdum augue. Morbi accumsan bibendum enim, et blandit nibh feugiat eget. Praesent non porttitor massa. Integer sit amet varius turpis. Vestibulum non blandit enim. Suspendisse vel arcu ac nunc feugiat imperdiet rhoncus quis libero. In ac lectus eu orci malesuada commodo. Fusce quam lorem, rutrum sed urna sed, finibus semper ante. Mauris laoreet porta lectus vel sollicitudin. Nam imperdiet condimentum diam. Fusce aliquam a elit ac porta.\nNam id purus a tellus molestie tempus. Ut eu lectus eleifend, efficitur eros ac, ullamcorper dui. Duis at cursus felis. Aliquam vitae dictum quam. Nunc ullamcorper dapibus mauris eget tempor. Cras pretium tincidunt nibh ac ornare. Mauris nec erat ligula. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam blandit leo nec arcu euismod mattis. Vestibulum in tempor sem.\nSed molestie aliquet mi eu gravida. Nulla id malesuada nisl. Sed cursus tempor condimentum. Nullam ut fermentum mi, at maximus sapien. Ut in sagittis lectus. Curabitur pharetra enim sit amet purus posuere porta. Etiam sit amet euismod dui. Cras at ante est. Integer consequat accumsan vestibulum. Curabitur egestas nulla vitae arcu consectetur, et fermentum enim ultricies. Nam eleifend augue id quam volutpat, ac commodo nulla suscipit. Vivamus ut est mi. Cras hendrerit felis eget posuere cursus. Integer quis elit augue. Nullam et tempus nisl, non maximus massa. Aliquam dapibus ante tortor, quis maximus est finibus vitae.",
+      "image": "https://playerok.fra1.digitaloceanspaces.com/images/1f0c79c8-822c-6110-5af1-4cd606cedf4c.jpeg?timestamp=1763873595",
+      "fullImage": "https://playerok.fra1.digitaloceanspaces.com/images/1f0c79c8-822c-6110-5af1-4cd606cedf4c.jpeg?timestamp=1763873595",
+      "levels": [
+        {
+          "level": 1,
+          "perk": "Начальный перк",
+          "bonus": "+1 к стате"
+        }
+      ]
     }
   ],
   "perks": [
@@ -132,7 +148,8 @@
       "id": 1,
       "name": "Кровавая баня",
       "description": "Больше урона",
-      "requirement": "Уровень 5"
+      "requirement": "Уровень 5",
+      "image": ""
     }
   ],
   "items": [
@@ -164,6 +181,110 @@
       "stats": "1к8 пустошь",
       "price": 11,
       "image": null
+    },
+    {
+      "id": 4,
+      "name": "Плащ Трагга",
+      "type": "Armor",
+      "subType": "Одежда",
+      "description": "Плащ грант-регента",
+      "stats": "КБ 20, +5 к силе",
+      "price": 0,
+      "image": null
+    },
+    {
+      "id": 5,
+      "name": "10мм",
+      "type": "Item",
+      "subType": "Патроны",
+      "description": "Обычный патрон 10мм",
+      "stats": "+0 к урону",
+      "price": 10,
+      "image": null
+    },
+    {
+      "id": 6,
+      "name": "Лом",
+      "type": "Item",
+      "subType": "Инструменты",
+      "description": "Полезная вещь из Пустоши",
+      "stats": "Открывает запертые двери",
+      "price": 0,
+      "image": null
+    },
+    {
+      "id": 7,
+      "name": "Сухпай",
+      "type": "Item",
+      "subType": "Еда",
+      "description": "Довоенный сухпай, спустя столько лет хорошо сохранился",
+      "stats": "+10 к насыщению",
+      "price": 15,
+      "image": null
+    },
+    {
+      "id": 8,
+      "name": "Дубина дрына",
+      "type": "Weapon",
+      "subType": "Ближний бой",
+      "description": "Ты же этого хотел, не так ли?",
+      "stats": "1к10 дробящего, вес подьемный только дрыну",
+      "price": 67,
+      "image": null
+    },
+    {
+      "id": 9,
+      "name": "Гульфик дрына",
+      "type": "Armor",
+      "subType": "Силовая",
+      "description": "Вот тебе обязательно это было делать?",
+      "stats": "КБ 15 + Мод. Тел.",
+      "price": -69,
+      "image": null
+    }
+  ],
+  "origins": [
+    {
+      "id": 1,
+      "name": "Вильтрумит",
+      "description": "HAIL VILTRUM EMPIRE!",
+      "bonus": "+5 к силе",
+      "image": "https://playerok.fra1.digitaloceanspaces.com/images/1f0c79c8-822c-6110-5af1-4cd606cedf4c.jpeg?timestamp=1763873595",
+      "fullImage": "https://playerok.fra1.digitaloceanspaces.com/images/1f0c79c8-822c-6110-5af1-4cd606cedf4c.jpeg?timestamp=1763873595"
+    }
+  ],
+  "mechanics": [
+    {
+      "id": "dada",
+      "title": "dada",
+      "cards": [
+        {
+          "id": "card-2",
+          "title": "Основная информация",
+          "content": "dddd"
+        },
+        {
+          "id": "card-1777893482102",
+          "title": "FDfadfa",
+          "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque cursus lectus ut interdum scelerisque. Mauris volutpat tincidunt arcu, quis ultricies orci vestibulum eget. In mollis aliquam vulputate. Praesent risus purus, pretium ut ligula sit amet, tincidunt laoreet tellus. Duis id dapibus nisi, ac porta lacus. Etiam tincidunt aliquam porttitor. Quisque et est id lectus bibendum porttitor sit amet sed erat.\n\nNunc ultricies odio nec aliquet consequat. Praesent et sapien blandit, iaculis est in, faucibus dui. Praesent volutpat scelerisque elit. Mauris scelerisque vulputate tellus eu venenatis. Sed feugiat odio eu urna convallis, sit amet laoreet neque rutrum. Duis convallis ac arcu eu sollicitudin. Nunc ultricies risus et sem hendrerit iaculis. Duis vel pretium tellus. Sed condimentum nibh a nisl luctus ullamcorper. Nulla rutrum dignissim nulla eu elementum. Quisque enim tellus, pretium at ex et, semper imperdiet elit. Maecenas urna nisl, ullamcorper quis quam sit amet, auctor aliquet justo. Aenean laoreet nulla vel elit tincidunt mollis. Vivamus ut lobortis ipsum. Nullam dignissim, odio non aliquet bibendum, dolor sem convallis libero, ac feugiat eros enim vel lorem. Nulla vel blandit leo.\n\nMaecenas justo justo, cursus non nulla vitae, malesuada congue orci. Nam nisi ante, tincidunt ut ante non, egestas gravida erat. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum ut interdum augue. Morbi accumsan bibendum enim, et blandit nibh feugiat eget. Praesent non porttitor massa. Integer sit amet varius turpis. Vestibulum non blandit enim. Suspendisse vel arcu ac nunc feugiat imperdiet rhoncus quis libero. In ac lectus eu orci malesuada commodo. Fusce quam lorem, rutrum sed urna sed, finibus semper ante. Mauris laoreet porta lectus vel sollicitudin. Nam imperdiet condimentum diam. Fusce aliquam a elit ac porta.\n\nNam id purus a tellus molestie tempus. Ut eu lectus eleifend, efficitur eros ac, ullamcorper dui. Duis at cursus felis. Aliquam vitae dictum quam. Nunc ullamcorper dapibus mauris eget tempor. Cras pretium tincidunt nibh ac ornare. Mauris nec erat ligula. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam blandit leo nec arcu euismod mattis. Vestibulum in tempor sem.\n\nSed molestie aliquet mi eu gravida. Nulla id malesuada nisl. Sed cursus tempor condimentum. Nullam ut fermentum mi, at maximus sapien. Ut in sagittis lectus. Curabitur pharetra enim sit amet purus posuere porta. Etiam sit amet euismod dui. Cras at ante est. Integer consequat accumsan vestibulum. Curabitur egestas nulla vitae arcu consectetur, et fermentum enim ultricies. Nam eleifend augue id quam volutpat, ac commodo nulla suscipit. Vivamus ut est mi. Cras hendrerit felis eget posuere cursus. Integer quis elit augue. Nullam et tempus nisl, non maximus massa. Aliquam dapibus ante tortor, quis maximus est finibus vitae."
+        }
+      ]
+    },
+    {
+      "id": "vats",
+      "title": "VATS",
+      "cards": [
+        {
+          "id": "card-1777893652782",
+          "title": "Что это такое",
+          "content": "<b>Lorem ipsum dolor sit amet</b>, consectetur adipiscing elit. Etiam pharetra ac metus nec cursus. Nam semper, nunc id tincidunt ullamcorper, ante metus pretium tortor, ac eleifend tortor nibh ut tortor. Aliquam cursus mauris eget ipsum lacinia auctor. Fusce efficitur ultrices justo vulputate accumsan. Curabitur non auctor ipsum. Integer cursus, urna auctor interdum fermentum, orci dui maximus augue, eget suscipit odio nisi at felis. Phasellus elit arcu, aliquet quis tortor eget, mollis rutrum justo. Vestibulum gravida, diam in malesuada laoreet, ligula ex eleifend purus, eu posuere sem leo eu quam. Vivamus augue eros, commodo et fermentum quis, faucibus sit amet lorem. Aliquam vel lacus gravida, placerat neque eget, laoreet sem. Fusce ut ligula sit amet ipsum placerat congue.\n\nMauris orci magna, euismod quis iaculis eu, elementum eget libero. In luctus maximus orci feugiat sodales. Pellentesque iaculis lorem eget felis vulputate consectetur. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Nullam sit amet augue a ligula scelerisque dapibus id a nulla. In in elit nulla. Quisque pulvinar mauris eget sem sodales, ut suscipit mauris lobortis. Donec blandit aliquet sodales. Vivamus erat arcu, pharetra ac dui a, tincidunt luctus libero. Sed lorem turpis, rutrum venenatis imperdiet sit amet, congue non augue. Aenean tristique nunc nec viverra convallis. Nullam feugiat tristique sapien eu vestibulum. Etiam libero felis, faucibus at diam ac, fermentum lacinia lorem. Suspendisse commodo vitae elit a consectetur."
+        },
+        {
+          "id": "card-1777893746742",
+          "title": "Как использовать",
+          "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet imperdiet lectus, ut lacinia nulla mattis at. Aenean et lorem varius, blandit orci eu, tincidunt justo. Morbi a eros iaculis, consectetur elit non, porttitor risus. Praesent placerat tortor tortor, eget eleifend sapien mattis mattis. Morbi in hendrerit orci, vitae mollis ex. Curabitur eu gravida nunc. Suspendisse dictum elit finibus sapien varius tincidunt. Maecenas fermentum ut quam eget lacinia. Pellentesque vitae arcu a quam scelerisque luctus vitae a magna. Suspendisse a massa finibus, rutrum urna sit amet, sagittis nibh. Vestibulum sollicitudin, justo ac egestas ornare, mauris ipsum tempor odio, at pretium ipsum ante vitae turpis. Aenean dictum dapibus libero ut volutpat."
+        }
+      ]
     }
   ]
 }

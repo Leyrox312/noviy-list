@@ -7,6 +7,7 @@ const api = axios.create({
 export const getRaces = () => api.get('/races');
 export const deleteRace = (id: number) => api.delete(`/races/${id}`);
 export const createRace = (data: any) => api.post('/races', data);
+export const updateRace = (id: number, data: any) => api.put(`/races/${id}`, data);
 
 export const getClasses = () => api.get('/classes');
 export const deleteClass = (id: number) => api.delete(`/classes/${id}`);
@@ -32,6 +33,11 @@ export const getOrigins = () => api.get('/origins');
 export const deleteOrigin = (id: number) => api.delete(`/origins/${id}`);
 export const createOrigin = (data: any) => api.post('/origins', data);
 export const updateOrigin = (id: number, data: any) => api.put(`/origins/${id}`, data);
+
+export const getMechanics = () => api.get('/mechanics');
+export const deleteMechanic = (id: string) => api.delete(`/mechanics/${id}`);
+export const createMechanic = (data: any) => api.post('/mechanics', data);
+export const updateMechanic = (id: string, data: any) => api.put(`/mechanics/${id}`, data);
 
 export const login = (credentials: any) => api.post('/auth', credentials);
 

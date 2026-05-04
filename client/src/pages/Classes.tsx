@@ -181,7 +181,7 @@ const Classes: React.FC = () => {
                 <div className="terminal-image-container">
                   <img src={selectedClass.fullImage} alt={selectedClass.name} style={{ width: '100%', border: '2px solid #18ff62' }} />
                   <div style={{ padding: '10px', background: 'rgba(0, 68, 0, 0.8)', border: '1px solid #18ff62', marginTop: '10px' }}>
-                    <p>{selectedClass.description}</p>
+                    <p style={{ whiteSpace: 'pre-wrap' }}>{selectedClass.description}</p>
                   </div>
                 </div>
               </div>

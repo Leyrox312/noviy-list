@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { useLocation, Link } from 'react-router-dom';
-import { getRaces, getClasses, getItems, getArticles } from '../api';
+import { getRaces, getClasses, getItems, getArticles, getPerks, getOrigins } from '../api';
 
 const SearchResults: React.FC = () => {
   const [results, setSearchResults] = useState<{ type: string; name: string; link: string }[]>([]);
@@ -24,7 +24,12 @@ const SearchResults: React.FC = () => {
         const allResults = [
           ...races.data.map((r: any) => ({ type: 'Раса', name: r.name, link: '/races' })),
           ...classes.data.map((c: any) => ({ type: 'Класс', name: c.name, link: '/classes' })),
-          ...items.data.map((i: any) => ({ type: 'Предмет/Оружие', name: i.name, link: i.type === 'Weapon' ? '/weapons' : (i.type === 'Armor' ? '/armor' : '/items') })),
+          ...items.data.map((i: any) => ({ 
+            type: i.type === 'Weapon' ? 'Оружие' : (i.type === 'Armor' ? 'Броня' : 'Предмет'), 
+            name: i.name, 
+            link: i.type === 'Weapon' ? '/weapons' : (i.type === 'Armor' ? '/armor' : '/items'),
+            subType: i.subType
+          })),
           ...articles.data.map((a: any) => ({ type: 'Статья', name: a.title, link: `/articles/${a.id}` })),
           ...(perks?.data || []).map((p: any) => ({ type: 'Перк', name: p.name, link: '/perks' })),
           ...(origins?.data || []).map((o: any) => ({ type: 'Происхождение', name: o.name, link: '/origins' }))
@@ -54,7 +59,8 @@ const SearchResults: React.FC = () => {
         <ul style={{ listStyle: 'none', padding: 0 }}>
           {results.map((res, idx) => (
             <li key={idx} style={{ marginBottom: '15px', borderBottom: '1px solid #18ff62', paddingBottom: '10px' }}>
-              <span style={{ color: 'yellow' }}>[{res.type}]</span>{' '}
+              <span style={{ color: 'yellow' }}>[{res.type.toUpperCase()}]</span>{' '}
+              {res.subType && <span style={{ color: '#888', fontSize: '0.8em', marginRight: '10px' }}>({res.subType})</span>}
               <Link to={res.link} style={{ color: '#18ff62', fontSize: '1.2em' }}>{res.name}</Link>
             </li>
           ))}

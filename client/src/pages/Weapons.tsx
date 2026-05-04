@@ -85,7 +85,7 @@ const Weapons: React.FC = () => {
     }
   };
 
-  const types = ['All', 'Пистолеты', 'Винтовки', 'Энергетическое', 'Тяжелое'];
+  const types = ['All', 'Пистолеты', 'Винтовки', 'Энергетическое', 'Тяжелое', 'Ближний бой'];
 
   const filteredWeapons = selectedType === 'All' 
     ? items 

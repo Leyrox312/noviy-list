@@ -12,6 +12,7 @@ import Perks from './pages/Perks';
 import Weapons from './pages/Weapons';
 import Armor from './pages/Armor';
 import Items from './pages/Items';
+import Mechanics from './pages/Mechanics';
 import Admin from './pages/Admin';
 import SearchResults from './pages/SearchResults';
 import Articles from './pages/Articles';
@@ -35,6 +36,7 @@ function App() {
               <Route path="/weapons" element={<Weapons />} />
               <Route path="/armor" element={<Armor />} />
               <Route path="/items" element={<Items />} />
+              <Route path="/mechanics" element={<Mechanics />} />
               <Route path="/admin" element={<Admin />} />
               <Route path="/search" element={<SearchResults />} />
               <Route path="/articles" element={<Articles />} />

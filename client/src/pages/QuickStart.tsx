@@ -30,7 +30,7 @@ const QuickStart: React.FC = () => {
           </li>
           <li style={{ marginBottom: '15px' }}>
             Определите характеристики (S.P.E.C.I.A.L.)
-            <button className="btn" style={{ marginLeft: '10px' }}>Инфо</button>
+            <button className="btn" style={{ marginLeft: '10px' }} onClick={() => window.open('https://next.dnd.su/stat-planner/', '_blank')}>Перейти</button>
           </li>
           <li style={{ marginBottom: '15px' }}>
             Выберите происхождение
@@ -46,7 +46,11 @@ const QuickStart: React.FC = () => {
           </li>
           <li style={{ marginBottom: '15px' }}>
             Запишите предысторию и детали
-            <button className="btn" style={{ marginLeft: '10px' }}>Инфо</button>
+            <button className="btn" style={{ marginLeft: '10px' }} onClick={() => window.location.href='/origins'}>Перейти</button>
+          </li>
+          <li style={{ marginBottom: '15px' }}>
+            Заполните лист персонажа
+            <button className="btn" style={{ marginLeft: '10px' }} onClick={() => window.open('https://0a126c9f-7ecd-42db-b72e-3adf3af2343e.filesusr.com/ugd/8b0de1_771cec2f5c03450f9670aa451fd1d6a2.pdf', '_blank')}>Скачать лист</button>
           </li>
         </ol>
       </section>

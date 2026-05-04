@@ -65,9 +65,31 @@ const Perks: React.FC = () => {
       {isFormOpen && (
         <div className="card" style={{ border: '2px solid yellow', marginBottom: '20px' }}>
           <form onSubmit={handleSubmit} style={{ display: 'flex', flexDirection: 'column', gap: '10px' }}>
-            <input type="text" placeholder="Название" value={formData.name} onChange={e => setFormData({...formData, name: e.target.value})} required className="btn" style={{ textAlign: 'left', background: 'black' }} />
-            <textarea placeholder="Описание" value={formData.description} onChange={e => setFormData({...formData, description: e.target.value})} required className="btn" style={{ textAlign: 'left', background: 'black', minHeight: '100px' }} />
-            <input type="text" placeholder="Требования" value={formData.requirement} onChange={e => setFormData({...formData, requirement: e.target.value})} className="btn" style={{ textAlign: 'left', background: 'black' }} />
+            <input 
+               type="text" 
+               placeholder="Название" 
+               value={formData.name} 
+               onChange={e => setFormData({...formData, name: e.target.value})} 
+               required 
+               className="btn" 
+               style={{ textAlign: 'left', background: 'transparent', color: '#18ff62', border: '1px solid #18ff62', textTransform: 'none' }} 
+             />
+             <textarea 
+               placeholder="Описание" 
+               value={formData.description} 
+               onChange={e => setFormData({...formData, description: e.target.value})} 
+               required 
+               className="btn" 
+               style={{ textAlign: 'left', background: 'transparent', color: '#18ff62', border: '1px solid #18ff62', minHeight: '100px', textTransform: 'none' }} 
+             />
+             <input 
+               type="text" 
+               placeholder="Требования" 
+               value={formData.requirement} 
+               onChange={e => setFormData({...formData, requirement: e.target.value})} 
+               className="btn" 
+               style={{ textAlign: 'left', background: 'transparent', color: '#18ff62', border: '1px solid #18ff62', textTransform: 'none' }} 
+             />
             <button type="submit" className="btn" style={{ background: 'yellow', color: 'black' }}>СОХРАНИТЬ</button>
           </form>
         </div>
